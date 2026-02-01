@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 //Middlewares
 app.use(
   cors({
-    origin: "https://ai-writingasst-mrc.netlify.app/", //replace with your frontend URL
+    origin: "https://ai-writingasst-mrc.netlify.app", //replace with your frontend URL
   }),
 ); //prevent CORS Origin Error
 app.use(express.json()); //parse json data
